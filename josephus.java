@@ -13,7 +13,7 @@ public class josephus {
         return ((jos(n-1,k)+k)%n);
     }
     
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         int a=jos(5,3);
         System.out.println("Person no. "+a+" will be alive");
